@@ -2,20 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+::selection{
+    background-color: rgba(128, 128, 128, 0.334);
+    color: black;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.footer{
+    background: linear-gradient(to bottom, white 20%,#545e3e8e);
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.soon{
+    background: linear-gradient(to bottom, black 40%, white);
+    color: transparent;
+    background-clip: text;
 }

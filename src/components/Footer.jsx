@@ -5,15 +5,15 @@ const Footer = () => {
   return (
     <div className='footer w-full h-[50vh] p-[2vw] px-[3.5vw] pb-[3.5vw] flex flex-col justify-between'>
         <div>
-        <h4 className='text-[1.5vw]'>Contact and Inquiries</h4>
+        <h4 className='text-[1.5vw] font-[font1]'>Contact and Inquiries</h4>
         <br />
-        <p className='text-[1vw]'>500 Terry Francine St. <br /> San Francisco, CA 94158</p>
+        <p className='text-[1vw] font-[font1]'>500 Terry Francine St. <br /> San Francisco, CA 94158</p>
         <br />
-        <p className='text-[1vw]'>123-456-7890</p>
-        <p className='text-[1vw]'>info@mysite.com</p>
+        <p className='text-[1vw] font-[font1]'>123-456-7890</p>
+        <p className='text-[1vw] font-[font1]'>info@mysite.com</p>
         </div>
         <div className='w-full flex items-center justify-between'>
-            <div className='flex items-center gap-[2vw] text-[1vw]'>
+            <div className='flex items-center gap-[2vw] text-[1vw] font-[font1]'>
                 <Link href="https://www.resideinbeing.com/policies/privacy-policy">Privacy Policy</Link>
                 <Link href="https://www.resideinbeing.com/policies/shipping-policy">Shipping Policy</Link>
                 <Link href="https://www.resideinbeing.com/policies/refund-policy">Returns & Exchange</Link>

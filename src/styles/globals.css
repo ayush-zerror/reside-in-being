@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: font1;
+    src: url("/fonts/futura_n4.df36ce3d9db534a4d7947f4aa825495ed740e410.woff2");
+}
+
+@font-face {
+    font-family: font2;
+    src: url("/fonts/futura_n5.5632c6d8a6da9141ef40e51d14264a007bcae7e5.woff2");
+}
+
+
+
 ::selection{
     background-color: rgba(128, 128, 128, 0.334);
     color: black;
